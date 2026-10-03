@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python / virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# PyInstaller output and bundled Ollama runtime/models (hundreds of MB)
+build/
+dist/
+bundle_staging/
+
+# Logs
+*.log
+
+# IDE / local tool settings
+.idea/
+.claude/
